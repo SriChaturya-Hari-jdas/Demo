@@ -17,6 +17,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Set up JDK 1.8
+      env:
+        GITHUB_TOKEN: e94a10eccc00aab4c1b1c7200f2fe63242230063
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
