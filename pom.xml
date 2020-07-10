@@ -17,6 +17,12 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
+         <properties>
+  <sonar.projectKey>srichaturya-hari-by_Demo</sonar.projectKey>
+  <sonar.organization>srichaturya-hari-by</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  <sonar.login>06e898eb853165e1697769e4fca08da34a8c350e</sonar.login>
+</properties>
 
     <dependencies>
         <dependency>
